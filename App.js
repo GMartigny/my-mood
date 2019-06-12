@@ -92,7 +92,7 @@ export default class App extends React.Component {
                         I feel {this.state.output.intensity}
                     </Text>
                     <Text style={[styles.text, styles.mood, {color: this.state.textColor}]}>
-                        {this.state.output.mood}
+                        {this.state.output.mood.name} {this.state.output.mood.emoji}
                     </Text>
                     <Button style={styles.button} title="Again" onPress={() => this.prepare()}/>
                 </View>
