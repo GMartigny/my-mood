@@ -10,15 +10,16 @@ export default StyleSheet.create({
         backgroundColor: "#444",
         padding: 70,
     },
-    pressText: {
-        color: "#fff",
-        textAlign: "center",
-    },
     text: {
+        textAlign: "center",
+        color: "#fff",
     },
     mood: {
         fontWeight: "bold",
         fontSize: 30,
         margin: 10,
+    },
+    button: {
+        marginTop: 20,
     }
 });

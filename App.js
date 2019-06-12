@@ -11,7 +11,6 @@ import styles from "./utils/styles";
 export default class App extends React.Component {
     state = {
         canShake: null,
-        shake: 0,
         isLoading: false,
         color: "#282828",
         output: null,
@@ -30,7 +29,6 @@ export default class App extends React.Component {
         this.setState({
             color: "#282828",
             mood: null,
-            shake: 0,
             output: null,
         });
         if (this.state.canShake) {
@@ -96,7 +94,7 @@ export default class App extends React.Component {
                     <Text style={[styles.text, styles.mood, {color: this.state.textColor}]}>
                         {this.state.output.mood}
                     </Text>
-                    <Button title="Again" onPress={() => this.prepare()}/>
+                    <Button style={styles.button} title="Again" onPress={() => this.prepare()}/>
                 </View>
             );
         }
@@ -111,14 +109,14 @@ export default class App extends React.Component {
 
         if (this.state.canShake) {
             return (
-                <Text style={styles.white}>Shake your phone</Text>
+                <Text style={styles.text}>👋 Shake your phone!</Text>
             );
         }
 
         return (
             <TouchableOpacity style={styles.press} onLongPress={() => this.selectMood()}>
-                <Text style={styles.pressText}>Press you thumb</Text>
-                <Text style={styles.pressText}>here</Text>
+                <Text style={styles.text}>Press you thumb</Text>
+                <Text style={styles.text}>here!</Text>
             </TouchableOpacity>
         );
     }
