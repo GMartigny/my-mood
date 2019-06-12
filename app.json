@@ -1,32 +1,36 @@
 {
-  "expo": {
-    "name": "My mood",
-    "slug": "my-mood",
-    "privacy": "public",
-    "sdkVersion": "33.0.0",
-    "platforms": [
-      "ios",
-      "android",
-      "web"
-    ],
-    "version": "1.1.0",
-    "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#282828"
-    },
-    "updates": {
-      "fallbackToCacheTimeout": 0
-    },
-    "assetBundlePatterns": [
-      "assets/**/*.png"
-    ],
-    "ios": {
-      "supportsTablet": true
-    },
-    "description": "Minimal random emotion app",
-    "githubUrl": "https://github.com/GMartigny/my-mood"
-  }
+    "expo": {
+        "name": "My mood",
+        "slug": "my-mood",
+        "privacy": "public",
+        "sdkVersion": "33.0.0",
+        "platforms": [
+            "ios",
+            "android",
+            "web"
+        ],
+        "version": "1.1.0",
+        "orientation": "portrait",
+        "icon": "./assets/icon.png",
+        "splash": {
+            "image": "./assets/splash.png",
+            "resizeMode": "contain",
+            "backgroundColor": "#282828"
+        },
+        "updates": {
+            "fallbackToCacheTimeout": 0
+        },
+        "assetBundlePatterns": [
+            "assets/**/*.png"
+        ],
+        "android": {
+            "package": "me.gmartigny.mymood"
+        },
+        "ios": {
+            "bundleIdentifier": "me.gmartigny.mymood",
+            "supportsTablet": true
+        },
+        "description": "Minimal random emotion app",
+        "githubUrl": "https://github.com/GMartigny/my-mood"
+    }
 }
