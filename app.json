@@ -25,6 +25,8 @@
     ],
     "ios": {
       "supportsTablet": true
-    }
+    },
+    "description": "Minimal random emotion app",
+    "githubUrl": "https://github.com/GMartigny/my-mood"
   }
 }
