@@ -24,7 +24,8 @@
             "assets/**/*.png"
         ],
         "android": {
-            "package": "me.gmartigny.mymood"
+            "package": "me.gmartigny.mymood",
+            "permissions": []
         },
         "ios": {
             "bundleIdentifier": "me.gmartigny.mymood",
