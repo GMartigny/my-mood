@@ -25,6 +25,7 @@
         ],
         "android": {
             "package": "me.gmartigny.mymood",
+            "versionCode": 2,
             "permissions": []
         },
         "ios": {
