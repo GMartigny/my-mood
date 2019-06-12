@@ -1,4 +1,5 @@
 # My mood
+[![](https://flat.badgen.net/badge/install%20on/Android?icon=googleplay&color=green)](https://play.google.com/store/apps/details?id=me.gmartigny.mymood)
 
 Minimal random emotion app
 
